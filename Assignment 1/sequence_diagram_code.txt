@@ -1,0 +1,17 @@
+@startuml
+actor User
+User->Authentication: Login
+User->Authentication: SetUpProfile
+User->Authentication: ResetPassword
+User->Interface: User Query
+alt Access Granted
+    Authentication-->User: Authentication Successful
+else Login Redirect
+    Authentication-->User: Invalid Credentials
+end
+
+Interface-->User: Chatbot's Reply
+Interface->Chatbot: Query Intent
+Chatbot->Interface: Utterance
+Interface-->User:Logout
+@enduml
