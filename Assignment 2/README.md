@@ -40,6 +40,7 @@
   ```
   
 - **[Sequence Diagram](https://github.com/gargdevanshi1/18103045-Software-Testing-Lab/blob/main/Assignment%201/sequence.png)**
+
   ![Sequence Diagram](https://github.com/gargdevanshi1/18103045-Software-Testing-Lab/blob/main/Assignment%201/sequence.png)
   
   ### Code
